@@ -1,3 +1,3 @@
 # stuffandthings
 
-Basic github stuff
+Basic github stuff and things
