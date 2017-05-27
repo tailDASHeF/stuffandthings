@@ -4,3 +4,4 @@
  syntax on               " syntax highlighting
  set hlsearch            " highlight the last searched term
  filetype plugin on      " use the file type plugins
+ colorscheme desert      " desert colorscheme
