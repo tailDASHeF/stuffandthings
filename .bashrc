@@ -27,11 +27,6 @@ else
   ssh-add
 fi
 
-#TMUX
-if [[ -z "$TMUX" ]]; then
-  tmux attach-session -t tmux || tmux new-session -s tmux
-fi
-
 #colorized man
 export GROFF_NO_SGR=yes
 man() {
