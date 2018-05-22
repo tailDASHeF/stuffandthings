@@ -2,8 +2,8 @@
 PS1="\[\033[38;5;12m\][\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;12m\]@\[$(tput sgr0)\]\[\033[38;5;10m\]\h\[$(tput sgr0)\]\[\033[38;5;12m\]:\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\[\033[38;5;12m\]]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 #aliases
-alias ls='ls --color'
-alias ll='ls -l'
+alias ls='ls --color' # change --color to -G on macOS
+alias ll='ls -l' # change --color to -G on macOS
 alias rm='rm -i'
 alias mv='mv -i'
 alias vi='vim'
