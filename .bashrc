@@ -8,6 +8,9 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias vi='vim'
 
+# enable forward i-search history search
+stty -ixon
+
 #bcrc
 export BC_ENV_ARGS=$HOME/.bcrc
 export HISTCONTROL=ignoredups
