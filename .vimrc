@@ -18,3 +18,4 @@ set wrap
 set laststatus=2
 set ruler
 set numberwidth=2
+set guioptions+=a
