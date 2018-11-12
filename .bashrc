@@ -7,6 +7,7 @@ alias ll='ls -l' # change --color to -G on macOS
 alias rm='rm -i'
 alias mv='mv -i'
 alias vi='vim'
+alias vim='vimx'
 
 # enable forward i-search history search
 stty -ixon
