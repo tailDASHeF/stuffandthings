@@ -22,3 +22,4 @@ set clipboard=unnamed
 set clipboard+=unnamedplus
 set report=0
 set guioptions+=a
+set ttymouse=xterm2
