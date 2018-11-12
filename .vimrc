@@ -18,6 +18,7 @@ set wrap
 set laststatus=2
 set ruler
 set numberwidth=2
-set clipboard=unnamedplus
+set clipboard=unnamed
+set clipboard+=unnamedplus
 set report=0
 set guioptions+=a
