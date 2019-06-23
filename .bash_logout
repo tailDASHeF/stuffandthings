@@ -1,5 +1,2 @@
 #stop ssh-agent
-
-if [ -n "$SSH_AUTH_SOCK" ] ; then
-  eval `/usr/bin/ssh-agent -k`
-fi
+trap 'test -n "$SSH_AGENT_PID" && eval `/usr/bin/ssh-agent -k`' 0
